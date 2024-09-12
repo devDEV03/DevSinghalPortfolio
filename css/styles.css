@@ -176,7 +176,7 @@ nav li a.active {
 /* Header Section */
 
 .hero {
-    background-image: url("/Images/connect/myimage.png");
+    background-image: url("/css/myimageForHero.png");
     background-color: white;
     background-size: 80%;
     background-position: 90% center;
