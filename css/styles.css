@@ -141,7 +141,7 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
 }
 
 header nav ul li a{
@@ -579,8 +579,13 @@ footer {
 .connect h4{
     margin-bottom: 15px;
 }
+
+.connect a{
+    text-decoration: none;
+}
 .connect i{
     font-size: 40px;
+    color: black;
 }
 
 .footer-bottom {
