@@ -294,7 +294,7 @@ nav li a.active {
 
 .project-card img {
     width: 100%;
-    height: auto;
+    max-height: 242px;
     display: block;
     margin: 0; 
 }
