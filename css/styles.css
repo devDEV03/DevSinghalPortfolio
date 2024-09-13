@@ -281,6 +281,7 @@ nav li a.active {
 }
 
 .project-card {
+    position: relative;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 20px;
@@ -322,6 +323,32 @@ nav li a.active {
 .project-card:hover{
 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.project-card:hover  .project-link {
+    display: flex;
+  }
+
+.project-link{
+    display: none;
+    transition: 0.5s;
+    top: 7%;
+    right: 7%;
+    position: absolute;
+    border-radius: 50%;
+    padding: 11px 17px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    align-items: center;
+}
+
+.project-link a{
+    text-decoration: none;
+    color: black;
+}
+
+.project-link a:hover{
+    color: #FFA500;
 }
 
 .tags {
