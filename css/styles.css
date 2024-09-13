@@ -176,7 +176,7 @@ nav li a.active {
 /* Header Section */
 
 .hero {
-    background-image: url("/css/myimageForHero.png");
+    background-image: url("myimageForHero.png");
     background-color: white;
     background-size: 80%;
     background-position: 90% center;
@@ -347,7 +347,7 @@ nav li a.active {
     color: black;
 }
 
-.project-link a:hover{
+.project-link:hover i{
     color: #FFA500;
 }
 
